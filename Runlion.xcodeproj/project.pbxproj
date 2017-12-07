@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		608D24541FD912DB00E670E6 /* commomPodFile.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 608D24531FD912DB00E670E6 /* commomPodFile.podspec */; };
 		A52D7F4F1FD8E2C9006CCFA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A52D7F4E1FD8E2C9006CCFA0 /* AppDelegate.m */; };
 		A52D7F521FD8E2C9006CCFA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A52D7F511FD8E2C9006CCFA0 /* ViewController.m */; };
 		A52D7F551FD8E2C9006CCFA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52D7F531FD8E2C9006CCFA0 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		608D24531FD912DB00E670E6 /* commomPodFile.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = commomPodFile.podspec; sourceTree = SOURCE_ROOT; };
 		A52D7F4A1FD8E2C9006CCFA0 /* Runlion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runlion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A52D7F4D1FD8E2C9006CCFA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A52D7F4E1FD8E2C9006CCFA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				A52D7F581FD8E2C9006CCFA0 /* LaunchScreen.storyboard */,
 				A52D7F5B1FD8E2C9006CCFA0 /* Info.plist */,
 				A52D7F5C1FD8E2C9006CCFA0 /* main.m */,
+				608D24531FD912DB00E670E6 /* commomPodFile.podspec */,
 			);
 			path = Runlion;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				608D24541FD912DB00E670E6 /* commomPodFile.podspec in Resources */,
 				A52D7F5A1FD8E2C9006CCFA0 /* LaunchScreen.storyboard in Resources */,
 				A52D7F571FD8E2C9006CCFA0 /* Assets.xcassets in Resources */,
 				A52D7F551FD8E2C9006CCFA0 /* Main.storyboard in Resources */,
