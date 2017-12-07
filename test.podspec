@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "test"
-  s.version      = "1.0"
+  s.version      = "1.1"
   s.summary      = "建立Cocopod"
 
 
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
 
 
-  s.source_files  = "ViewController", "ViewController/**/*.{h,m}"
+  s.source_files  = "test", "*.{h,m}"
 
    s.requires_arc = true
 
