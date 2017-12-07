@@ -15,6 +15,7 @@
 		A52D7F5D1FD8E2C9006CCFA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A52D7F5C1FD8E2C9006CCFA0 /* main.m */; };
 		A52D7F671FD8E2C9006CCFA0 /* RunlionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A52D7F661FD8E2C9006CCFA0 /* RunlionTests.m */; };
 		A52D7F721FD8E2C9006CCFA0 /* RunlionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A52D7F711FD8E2C9006CCFA0 /* RunlionUITests.m */; };
+		A52D7F841FD915E1006CCFA0 /* LZObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A52D7F831FD915E1006CCFA0 /* LZObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A52D7F6D1FD8E2C9006CCFA0 /* RunlionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunlionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A52D7F711FD8E2C9006CCFA0 /* RunlionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunlionUITests.m; sourceTree = "<group>"; };
 		A52D7F731FD8E2C9006CCFA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A52D7F821FD915E1006CCFA0 /* LZObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZObject.h; sourceTree = "<group>"; };
+		A52D7F831FD915E1006CCFA0 /* LZObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		A52D7F4C1FD8E2C9006CCFA0 /* Runlion */ = {
 			isa = PBXGroup;
 			children = (
+				A52D7F811FD915C3006CCFA0 /* Runlion */,
 				A52D7F4D1FD8E2C9006CCFA0 /* AppDelegate.h */,
 				A52D7F4E1FD8E2C9006CCFA0 /* AppDelegate.m */,
 				A52D7F501FD8E2C9006CCFA0 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				A52D7F731FD8E2C9006CCFA0 /* Info.plist */,
 			);
 			path = RunlionUITests;
+			sourceTree = "<group>";
+		};
+		A52D7F811FD915C3006CCFA0 /* Runlion */ = {
+			isa = PBXGroup;
+			children = (
+				A52D7F821FD915E1006CCFA0 /* LZObject.h */,
+				A52D7F831FD915E1006CCFA0 /* LZObject.m */,
+			);
+			path = Runlion;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +280,7 @@
 			files = (
 				A52D7F521FD8E2C9006CCFA0 /* ViewController.m in Sources */,
 				A52D7F5D1FD8E2C9006CCFA0 /* main.m in Sources */,
+				A52D7F841FD915E1006CCFA0 /* LZObject.m in Sources */,
 				A52D7F4F1FD8E2C9006CCFA0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
